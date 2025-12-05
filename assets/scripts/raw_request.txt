@@ -1,0 +1,936 @@
+Quiero implementes y organizes las categorias de las herramientas asi y de paso con un una intregracion de mas herramientas y una seccion par start.me y enlaces github tools:https://osintframework.com/
+https://inteltechniques.com/
+https://www.osintcombine.com/tools
+https://osint.sh/
+https://gofindwho.com/
+https://recontool.org/
+http://rr.reuser.biz/
+https://www.avivadirectory.com/: ayudame a organizar dandome una lista con cada categoria en orden asi para poderlo integrar en mi proyecto que tengo que entregar en 1 semana https://jscamargo-cyber.github.io/Framework-OSINT/
+https://www.osinttechniques.com/
+https://synapsint.com/index.php
+https://osintcurio.us/
+https://nixintel.info/
+https://www.technisette.com/p/home
+https://keyfindings.blog/
+https://medium.com/@sector035
+https://jakecreps.com/
+https://aboutdfir.com/
+https://www.secjuice.com/social-media-intelligence-socmint/
+https://bushidotoken.blogspot.com/2020/04/scout-sniper-grade-osint-website.html
+https://dfir.blog/introducing-unfurl/
+https://www.osintguru.com/
+http://www.osinteditor.com/
+https://sourcesandmethods.blogspot.com/
+https://www.intelligenceonline.com/
+https://start.me/p/gy1BgY/osint-tools-and-resources
+https://start.me/p/onqkGY/osint
+https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit#
+https://docs.google.com/spreadsheets/d/1klugQqw6POlBtuzon8S0b18-gpsDwX-5OYRrB7TyNEw/edit#gid=0
+https://start.me/p/DPYPMz/the-ultimate-osint-collection
+https://github.com/jivoi/awesome-osint
+https://www.aware-online.com/en/osint-tools/
+https://www.osinttechniques.com/osint-tools.html
+https://github.com/Ph055a/Domains_OSINT_Collection
+https://github.com/HowToFind-bot/YaSeeker
+https://www.osintdojo.com/resources/
+https://start.me/p/zpkMMO/deep-fake-tools-detection
+https://start.me/p/GEBalz/company-home-page
+https://start.me/p/7PP2lx/ocean-workspace
+https://start.me/p/5kkBqM/forest-workspace
+https://start.me/p/Xyy6Ek/calm-workspace
+https://start.me/p/GEgppm/ai-tools-and-resources
+https://start.me/p/rxoGXx/edu-startpage
+https://start.me/p/p61bgo/gaming
+https://start.me/p/9EmalX/hr-recruitment
+https://start.me/p/KMaagB/business-apps
+https://start.me/p/PweyB2/lead-generation-collection
+https://start.me/p/lLzN12/class-home-page
+https://start.me/p/9EDkll/coronavirus-covid-19
+https://start.me/p/4K2M9a/lets-plan-our-vacation-together
+https://start.me/p/RMq8wD/rock-guitar-chords-tabs
+https://start.me/p/wM20nX/blogging-platforms-tools
+https://start.me/p/DPDebo/new-employee-onboarding-page
+https://start.me/p/xb2oKa/glen-s-rankins-photography-blog
+https://start.me/p/9oEQPl/non-profit
+https://start.me/p/7PPPvK/link-in-bio
+https://start.me/p/ogmPRY/heidi-matthews-portal
+https://start.me/p/Kg4ynn/prioritize-like-a-pro-your-eisenhower-matrix-temp
+https://start.me/p/PL4lo9/gretchen-rubin-method-of-productivity
+https://start.me/p/gGqRKp/real-estate-in-the-hague
+https://start.me/p/GEBalz/company-home-page
+https://start.me/p/7PP2lx/ocean-workspace
+https://start.me/p/5kkBqM/forest-workspace
+https://start.me/p/Xyy6Ek/calm-workspace
+https://start.me/p/GEgppm/ai-tools-and-resources
+https://start.me/p/rxoGXx/edu-startpage
+https://start.me/p/p61bgo/gaming
+https://start.me/p/9EmalX/hr-recruitment
+https://start.me/p/KMaagB/business-apps
+https://start.me/p/PweyB2/lead-generation-collection
+https://start.me/p/lLzN12/class-home-page
+https://start.me/p/9EDkll/coronavirus-covid-19
+https://start.me/p/4K2M9a/lets-plan-our-vacation-together
+https://start.me/p/RMq8wD/rock-guitar-chords-tabs
+https://start.me/p/onqkGY/osint
+https://start.me/p/wM20nX/blogging-platforms-tools
+https://start.me/p/DPDebo/new-employee-onboarding-page
+https://start.me/p/xb2oKa/glen-s-rankins-photography-blog
+https://start.me/p/zpkMMO/deep-fake-tools-detection
+https://start.me/p/9oEQPl/non-profit
+https://start.me/p/7PPPvK/link-in-bio
+https://start.me/p/ogmPRY/heidi-matthews-portal
+https://start.me/p/Kg4ynn/prioritize-like-a-pro-your-eisenhower-matrix-temp
+https://start.me/p/PL4lo9/gretchen-rubin-method-of-productivity
+https://start.me/p/gGqRKp/real-estate-in-the-hague
+https://start.me/p/aNkNx8/read-it-later-your-pocket-alternative
+https://start.me/pages/us/osint
+https://start.me/p/1kxyw9/v3nari-bookmarks
+https://start.me/p/b5Aow7/asint_collection
+https://start.me/pages/us/osint
+https://start.me/p/1kxyw9/v3nari-bookmarks
+https://start.me/p/b5Aow7/asint_collection
+https://start.me/p/m6XQ08/osint
+https://start.me/p/m6XQ08/osint
+https://start.me/p/aNkNx8/read-it-later-your-pocket-alternative
+https://start.me/pages/
+https://start.me/
+https://start.me/p/DPYPMz/the-ultimate-osint-collection
+https://start.me/p/rx6Qj8/nixintel-s-osint-resource-list
+https://start.me/p/wMdQMQ/tools
+https://start.me/p/Pwy0X4/osint-inception
+https://cybdetective.com/osintmap
+https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit#
+https://github.com/jivoi/awesome-osint
+https://www.aware-online.com/en/osint-tools/
+https://www.osintdojo.com/resources/
+https://gijn.org/2018/11/07/gijn-toolbox/
+https://about.start.me/
+https://start.me/p/m6OJgv/the-bbc-africa-eye-forensics-dashboard
+https://start.me/p/OmExgb/terrorism-radicalisation-research-dashboard
+https://start.me/p/zpkMMO/deep-fake-tools-detection
+https://start.me/p/9EDkll/coronavirus-covid-19
+https://start.me/p/gy1BgY/osint-tools-and-resources
+https://start.me/p/onqkGY/osint
+https://start.me/p/1kAP0b/osint-resources
+https://start.me/p/aLe0vp/osint-resources-in-canada
+https://start.me/p/7kxyy2/osint-tools-curated-by-lorand-bodo
+https://start.me/p/7PP2lx/ocean-workspace
+https://start.me/p/5kkBqM/forest-workspace
+https://start.me/p/Xyy6Ek/calm-workspace
+https://start.me/p/GEgppm/ai-tools-and-resources
+https://4plebs.org/
+https://www.nulled.to/
+https://cracked.to/
+https://raidforums.com/index.php
+https://forum.exploit.in/
+https://github.com/teixeira0xfffff/Cybercrime-Forums
+http://link-king.org/
+https://mindstream.news/
+https://refind.com/
+https://www.theinformation.com/
+https://www.therundown.ai/
+https://beta.character.ai/
+https://customgpt.ai/
+https://chat.dante-ai.com/sign-in
+https://www.databerry.ai/
+https://insightbase.ai/
+https://app.getmerlin.in/
+https://orimon.ai/
+https://osher.ai/
+https://sitegpt.ai/
+https://www.tidio.com/lyro/
+https://www.typingmind.com/
+https://www.xmagic.ai/
+https://firefly.adobe.com/
+https://www.midjourney.com/home/
+https://lexica.art/
+https://playgroundai.com/
+https://www.craiyon.com/
+https://www.logoai.com/
+https://art.aiseo.ai/
+https://app.artflow.ai/
+https://artsmart.ai/
+https://www.blockadelabs.com/
+https://deepai.org/machine-learning-model/text2img
+https://hotpot.ai/art-generator
+https://lumalabs.ai/
+https://magicstudio.com/photobooth
+https://picsart.com/ai-image-generator
+https://writesonic.com/photosonic-ai-art-generator
+https://podcastle.ai/
+https://chopshopai.com/
+https://cleanvoice.ai/
+https://www.deciphr.ai/
+https://hello.fathom.fm/
+https://hello.podium.page/
+https://podsqueeze.com/
+https://www.aiprm.com/
+https://surferseo.com/
+https://www.rankiq.com/
+https://inlinks.com/
+https://www.marketmuse.com/
+https://seovendor.co/seo-gpt/
+https://seo.app/
+https://www.seopress.org/features/openai
+https://plugin.squirrly.co/
+https://www.adcreative.ai/
+https://www.hotreachai.com/
+https://looka.com/
+https://windsor.ai/
+https://gptzero.me/
+https://app.originality.ai/
+https://gowinston.ai/
+https://contentatscale.ai/
+https://gptkit.ai/
+https://plagiashield.com/
+https://www.bardeen.ai/
+https://www.browse.ai/
+https://hexomatic.com/
+https://clickup.com/
+https://www.notion.so/
+https://coda.io/
+https://www.taskade.com/
+https://todoist.com/integrations/apps/ai-assistant
+https://app.grammarly.com/
+https://fireflies.ai/
+https://formulabot.com/
+https://www.sheetai.app/
+https://www.beautiful.ai/
+https://www.decktopus.com/
+https://pdf.ai/
+https://www.sanebox.com/
+https://10web.io/
+https://durable.co/ai-website-builder
+https://elementor.com/pages/wordpress
+https://www.framer.com/
+https://zyro.com/
+https://quizgecko.com/
+https://soofy.io/
+https://talkpal.ai/
+https://teachermatic.com/
+https://courseai.com/
+https://www.google.com/
+https://yandex.com/
+https://www.bing.com/
+https://duckduckgo.com/
+https://www.mojeek.com/
+https://swisscows.com/
+https://metager.org/
+https://yacy.net/
+http://advangle.com/
+https://answerthepublic.com/
+https://www.google.com/advanced_search
+http://www.iseek.com/iseek/home.page
+https://www.izito.com/
+https://www.startpage.com/
+https://swisscows.ch/
+https://search.yahoo.com/web/advanced
+https://www.yippy.com/
+https://bt4g.org/
+https://boardreader.com/
+https://camas.github.io/reddit-search/
+https://www.pdfsearch.io/
+https://searchcode.com/
+https://publicwww.com/
+https://www.exploit-db.com/google-hacking-database
+https://geekwire.eu/ghdb/
+https://ahrefs.com/blog/google-advanced-search-operators/
+https://github.com/GONZOsint/gitrecon
+https://qresear.ch/
+https://blackhattrick.blogspot.com/2018/03/lfi-dork-list.html
+https://cse.google.com/cse?cx=003248445720253387346:turlh5vi4xc
+https://translate.google.com/
+https://www.deepl.com/translator
+https://translate.yandex.com/
+https://www.bing.com/translator
+https://namechk.com/
+https://checkusernames.com/
+https://whatsmyname.app/
+https://knowem.com/
+https://github.com/qeeqbox/social-analyzer
+https://github.com/soxoj/maigret
+https://hunter.io/search
+https://tools.epieos.com/email.php
+https://emailrep.io/
+https://dehashed.com/
+https://www.emailsherlock.com/
+https://pypi.org/project/h8mail/
+https://rocketreach.co/
+https://cq21.uk/email-to-username/
+https://www.verifyemailaddress.org/
+https://leakcheck.io/
+https://dkimvalidator.com/
+https://33mail.com/
+https://www.melissa.com/v2/lookups/emailcheck/email/
+https://www.email-validator.net/
+http://www.reversegenie.com/email.php
+https://maildb.io/
+https://mailshunt.com/
+https://mailtester.com/testmail.php
+http://www.skymem.info/
+https://verify-email.org/
+https://www.voilanorbert.com/
+https://phonebook.cz/
+https://github.com/sundowndev/PhoneInfoga
+https://demo.phoneinfoga.crvx.fr/#/
+https://github.com/Chr0m0s0m3s/DeadTrap
+https://tools.epieos.com/phone.php
+https://www.zlookup.com/
+https://www.numlookup.com/
+https://phonesear.ch/
+https://www.neutrinoapi.com/account/main/
+https://www.everyoneapi.com/
+https://www.martinvigo.com/tools/phonerator/
+http://receive-sms-online.com/
+https://temp-sms.org/
+https://verifywithsms.com/
+https://www.textverified.com/
+https://www.juicysms.com/
+https://smsprivacy.org/
+https://pastebin.com/phdkJg4G
+https://www.sideline.com/
+https://iplum.com/
+https://crypton.sh/
+https://www.virtualpostmail.com/
+https://usshortcodedirectory.com/
+https://trainfo.iconectiv.com/related-sites
+https://www.social-searcher.com/
+https://www.mtg-bi.com/
+https://www.meltwater.com/en
+https://findmyfbid.com/
+https://github.com/sowdust/ffff
+https://github.com/megadose/facebook_totem
+https://commentpicker.com/
+https://foller.me/
+https://accountanalysis.app/
+https://tweeterid.com/
+https://github.com/Datalux/Osintgram
+https://www.modash.io/instagram-email-finder
+https://vidnice.com/
+https://github.com/mxrch/ghunt
+https://discord.id/
+https://www.smat-app.com/timeline?searchTerm=election
+https://www.applyzer.com/
+https://www.appannie.com/en/apps/ios/top/
+http://www.familytreenow.com/
+https://www.peekyou.com/
+https://pipl.com/
+https://radaris.com/
+https://www.spokeo.com/
+https://thatsthem.com/reverse-email-lookup
+https://www.ussearch.com/
+https://webmii.com/
+https://www.zabasearch.com/
+https://opencorporates.com/
+https://www.trademarkia.com/
+https://www.corporationwiki.com/
+https://theorg.com/
+https://b2bhint.com/en
+https://index.co/
+https://dashboard.fullcontact.com/login
+https://maltego.peoplemon.com/
+https://www.c-hound.ai/
+https://www.bitcoinabuse.com/
+https://checkbitcoinaddress.com/
+https://www.zoominfo.com/people_directory/professional_profile/A-0-0
+https://www.courtlistener.com/
+https://www.judyrecords.com/
+https://sanctionsexplorer.org/
+https://www.tendersinfo.com/
+https://voterrecords.com/
+https://donor.watch/
+https://www.countyoffice.org/
+https://www.lumendatabase.org/
+https://lex.be/
+https://casetext.com/case/bright-imperial-ltd-v-rt-mediasolutions
+https://datacatalog.worldbank.org/
+https://www.melissa.com/v2/lookups/deathcheck
+https://www.followthemoney.org/
+http://www.opensecrets.org/
+http://www.politicalmoneyline.com/
+https://www.brbpub.com/
+https://www.kvk.nl/
+https://www.delpher.nl/nl/kranten
+https://www.owens.com/
+https://www.wipo.int/amc/en/domains/
+https://www.udrpsearch.com/
+https://www.dndisputes.com/
+https://www3.wipo.int/madrid/monitor/en/
+https://registryfinder.com/
+https://openresearch-repository.anu.edu.au/
+https://link.springer.com/
+https://b-ok.cc/
+https://datareportal.com/
+https://www.politifact.com/
+https://www.cia.gov/the-world-factbook/
+https://data.worldbank.org/country
+http://news.bbc.co.uk/2/hi/country_profiles/default.stm
+https://www.who.int/countries/
+http://www.fao.org/countryprofiles/en
+https://globaledge.msu.edu/
+https://www.gov.uk/government/collections/country-policy-and-information-notes
+https://www.international.gc.ca/world-monde/country-pays/index.aspx?lang=eng
+https://www.international.gc.ca/cil-cai/country_insights-apercus_pays/countryinsights-apercuspays.aspx?lang=eng
+https://www.refworld.org/type,COUNTRYPROF,,,,,0.html
+https://www.routledge.com/
+https://www.govdata.de/
+https://military.wikia.org/wiki/Main_Page
+https://viewdns.info/
+https://dnsdumpster.com/
+https://securitytrails.com/
+https://www.whoxy.com/
+https://myip.ms/
+https://centralops.net/co/
+https://domainbigdata.com/
+https://sonar.omnisint.io/
+https://spyse.com/
+https://riddler.io/
+https://www.bulkseotools.com/bulk-whois-lookup.php
+http://analyzeid.com/
+http://dailychanges.domaintools.com/
+http://www.domaincrawler.com/
+https://www.domainiq.com/
+https://www.easywhois.com/
+https://website.informer.com/
+https://who.is/
+https://dnstwister.report/
+https://findsubdomains.com/
+https://dnslytics.com/
+https://securitytrails.com/dns-trails
+https://reputation.team-cymru.com/
+https://www.reversewhois.io/
+https://dnpedia.com/
+https://bgp.he.net/
+https://dns.watch/
+https://visualping.io/
+https://whoisology.com/
+https://network-tools.com/
+https://ipinfo.io/
+https://networksdb.io/
+https://www.dan.me.uk/
+https://www.bigdatacloud.com/
+https://dnsmap.io/
+https://hetrixtools.com/
+https://www.shodan.io/
+https://censys.io/
+https://fofa.so/
+https://www.zoomeye.org/
+https://onyphe.io/
+https://urlscan.io/
+https://app.binaryedge.io/login
+https://www.thingful.net/
+https://builtwith.com/
+https://builtwith.com/login
+https://whatcms.org/
+https://www.similarweb.com/
+https://spyonweb.com/
+http://www.visualsitemapper.com/
+https://import.io/
+https://www.scrapestorm.com/
+https://www.sken.io/
+https://www.1984hosting.com/
+https://www.systemli.org/en/index.html
+https://evolution-host.com/
+https://itldc.com/
+https://pq.hosting/en/
+https://openbsdhosting.com/web-hosting
+https://www.vultr.com/servers/openbsd
+https://www.arpnetworks.com/
+https://web.archive.org/
+https://archive.is/
+https://commoncrawl.org/
+https://www.nerdydata.com/
+https://www.google.com/earth/
+https://www.bing.com/maps
+https://www.openstreetmap.org/
+https://zoom.earth/
+https://livingatlas.arcgis.com/en/home/
+http://mashedworld.com/
+https://www.mapillary.com/
+https://www.cellmapper.net/map
+http://www.cellreception.com/
+http://www.antennasearch.com/default.asp
+https://www.opensignal.com/
+https://wigle.net/
+https://find-wifi.mylnikov.org/
+https://www.insecam.org/en/
+https://www.flightradar24.com/
+https://www.marinetraffic.com/
+http://platesmania.com/
+http://www.worldlicenseplates.com/
+https://suncalc.org/
+https://www.windy.com/
+https://usa.liveuamap.com/
+https://atlasofsurveillance.org/
+https://www.digitalattackmap.com/
+https://liveipmap.com/
+https://ipstack.com/
+https://forensic-architecture.org/
+https://intelliearth.harrisgeospatial.com/
+https://ipinfo.io/map
+https://images.google.com/
+https://yandex.com/images/
+https://tineye.com/
+https://pimeyes.com/en
+https://searchbyimage.app/
+http://fotoforensics.com/
+https://exifcleaner.com/
+https://github.com/szTheory/exifcleaner
+https://0xacab.org/jvoisin/mat2
+https://0xacab.org/jvoisin/mat2-web
+https://gitlab.com/rmnvgr/metadata-cleaner
+https://29a.ch/photo-forensics/
+https://citizenevidence.amnestyusa.org/
+https://generated.photos/
+https://hidefaces.app/
+https://imgops.com/
+https://vidgrid.tk.gg/
+https://www.liveatc.net/
+https://www.broadcastify.com/
+http://radio.garden/
+http://sdr.hu/
+https://www.globaltuners.com/
+https://tunein.com/
+https://www.liveonlineradio.net/category/syria
+https://www.radioreference.com/
+https://www.milscanners.org/
+https://www.proscan.org/
+https://id.recordedfuture.com/login
+https://community.riskiq.com/login
+https://exchange.xforce.ibmcloud.com/
+https://otx.alienvault.com/dashboard/new
+https://pulsedive.com/
+https://viz.greynoise.io/
+https://maltiverse.com/search
+https://opentip.kaspersky.com/
+https://app.threatconnect.com/auth/index.xhtml#/
+https://adversary.crowdstrike.com/
+https://rescure.me/feeds.html
+https://strikesource.com/
+https://www.abuseipdb.com/
+https://www.phishtank.com/index.php
+https://phishstats.info/
+https://botscout.com/
+https://spur.us/app/auth/sign-in
+https://www.anti-hacker-alliance.com/
+https://www.virustotal.com/gui/
+https://www.virustotal.com/gui/sign-in
+https://app.any.run/
+https://www.hybrid-analysis.com/
+https://analyze.intezer.com/
+https://metadefender.opswat.com/
+https://malwareconfig.com/
+https://koodous.com/
+https://www.exploit-db.com/
+https://attackerkb.com/
+https://vuldb.com/
+https://www.opencve.io/welcome
+https://cxsecurity.com/
+https://attackevals.mitre-engenuity.org/
+https://www.exploitalert.com/
+https://portal.underattack.today/
+https://www.codexgigassys.com/#/
+https://www.zero-day.cz/
+https://www.ransomwatch.org/
+https://haveibeenpwned.com/
+https://dehashed.com/
+https://leak-lookup.com/
+https://intelx.io/
+https://scylla.sh/
+https://psbdmp.ws/
+https://buckets.grayhatwarfare.com/
+https://leakix.net/
+https://leakcheck.net/
+https://leakpeek.com/
+https://amibreached.com/
+https://www.leaks.sh/
+https://offshoreleaks.icij.org/
+https://www.wikileaks.org/
+https://file.wikileaks.org/file/
+https://hunter.ddosecrets.com/
+https://www.liveleak.com/
+https://darksearch.io/
+https://metrics.torproject.org/exonerator.html
+https://iaca-darkweb-tools.com/
+https://darktracer.io/
+https://onion.live/
+http://www.dargle.net/
+https://github.com/s-rah/onionscan
+https://github.com/megadose/OnionSearch
+https://github.com/OWASP/Amass
+https://github.com/laramies/theHarvester
+https://www.maltego.com/
+https://github.com/SpiderFoot/spiderfoot
+https://sf-f7460a9.hx.spiderfoot.net/
+https://bird.tools/
+https://github.com/intelowlproject/IntelOwl
+https://www.protectedtext.com/
+https://privatebin.info/
+https://joplinapp.org/
+https://obsidian.md/
+https://wereturtle.github.io/ghostwriter/
+https://www.cyberchef.uk/
+https://www.draw.io/
+https://etherpad.org/
+https://privatlab.com/
+https://requestbin.net/
+https://pad.riseup.net/p/archlinuxinstall-keep
+https://www.whonix.org/wiki/Main_Page
+https://tails.boum.org/
+https://www.kali.org/
+https://www.sabayon.org/
+https://tsurugi-linux.org/
+https://sec.eff.org/
+https://satoshivpn.com/
+https://www.comparitech.com/vpn/vpn-logging-policies/#M
+https://cirt.net/passwords
+https://www.huque.com/bin/gen_tlsa
+https://what2log.com/
+https://www.privacyshield.gov/welcome
+https://www.tines.io/
+https://www.knime.com/
+https://www.opencti.io/en/
+https://graphsense.info/
+https://phantombuster.com/
+https://networkx.org/
+https://metron.apache.org/
+https://vis.occrp.org/
+https://kumu.io/
+https://corma.de/en/casefile-visualization-of-information-investigation/
+https://datavizcatalogue.com/
+https://d3js.org/
+http://icyberchef.com/
+https://metadefender.opswat.com/
+https://unshorten.it/
+https://download.botsight.nlok-research.me/
+https://whatcms.org/
+https://www.projecthoneypot.org/home.php
+https://explainshell.com/
+http://www.dest-unreach.org/socat/
+https://packetsender.com/
+https://www.pingcastle.com/
+https://klode.tech/
+https://hashes.org/
+https://crackstation.net/
+https://github.com/intelowlproject/IntelOwl
+https://github.com/yogeshojha/rengine
+http://10degres.net/github-tools-collection/
+https://github.com/ail-project/ail-framework
+https://github.com/OWASP/Amass
+https://github.com/HowToFind-bot
+https://github.com/fireeye/ThreatPursuit-VM
+https://github.com/jkctech/Telegram-Trilateration
+https://github.com/hhhrrrttt222111/Ethical-Hacking-Tools
+https://github.com/matteo-grella/tweetdeck-scraper
+https://github.com/cyberark/kubesploit
+https://github.com/adnane-X-tebbaa/GRecon
+https://github.com/leoanggal1/P-SAK
+https://github.com/liamg/traitor
+https://github.com/sponsors/anvaka
+https://a8silo.com/
+https://www.whonix.org/wiki/Main_Page
+https://isolation.site/
+https://gitpod.io/workspaces/
+https://wiki.js.org/
+https://www.protectedtext.com/
+https://obsidian.md/
+https://zettlr.com/
+https://writefreely.org/
+https://www.resilio.com/individuals/
+https://kennbroorg.gitlab.io/ikyweb/
+https://tools.kali.org/tools-listing
+https://tryhackme.com/
+https://www.getblackbird.net/
+https://www.katacoda.com/
+https://minikube.sigs.k8s.io/docs/
+https://ctf.cybersoc.wales/
+https://rentry.co/InfoSec-Learning-Resources
+https://www.sans.org/blog/-must-have-free-resources-for-open-source-intelligence-osint-/
+https://www.cjr.org/tow_center_reports/guide-to-osint-and-hostile-communities.php
+https://verificationhandbook.com/
+https://onlineharassmentfieldmanual.pen.org/
+https://kit.exposingtheinvisible.org/
+https://www.riskiq.com/threat-hunting-resources/
+https://disinfocloud.com/
+https://www.readkong.com/page/osint-cheat-sheet-inteltechniques-com-3762848
+https://firstdraftnews.org/
+https://skerritt.blog/how-does-tor-really-work/
+https://cheatography.com/davechild/cheat-sheets/regular-expressions/
+https://linuxconfig.org/install-tor-on-ubuntu-18-04-bionic-beaver-linux
+https://usnwc.libguides.com/c.php?g=494120&p=3420732
+https://www.i-intelligence.eu/wp-content/uploads/2018/06/OSINT_Handbook_June-2018_Final.pdf
+https://verificationhandbook.com/
+https://kit.exposingtheinvisible.org/
+https://gijn.org/citizen-investigation-guide/
+https://corporatewatch.org/wp-content/uploads/2017/09/Investigating-Companies-Corporate-Watch.pdf
+https://www.cia.gov/static/9a5f1162fd0932c29bfed1c030edf4ae/Pyschology-of-Intelligence-Analysis.pdf
+https://www.social-engineer.org/framework/general-discussion/
+https://www.criticalthinking.org/
+https://www.journaliststoolbox.org/2020/01/22/online_journalism/
+https://datajournalism.com/
+http://www.researchclinic.net/
+https://kateto.net/network-visualization
+https://security.kiwi/
+https://blog.passivetotal.org/surfacing-infrastructure-with-trackers/
+https://medium.com/week-in-osint/keeping-a-grip-on-googleids-506814ae098b
+https://subfn.net/2020/06/15/ga-osint-trick/
+https://www.rattis.net/2020/03/16/building-an-osint-box-based-on-open-source-intelligence-techniques-7th-edition/
+https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/
+http://www.covert.io/
+https://medium.com/@johnlatwc/the-githubification-of-infosec-afbdbfaad1d1
+https://www.intelligencewithsteve.com/post/a-guide-to-searching-linkedin-by-email-address
+https://benjaminstrick.com/geospatial-awareness-how-to-add-data-to-google-earth/
+https://medium.com/dataseries/telegram-network-visualization-tracing-forwards-and-mentions-f75746712fcf
+https://www.wbtsec.com/twitter-osint.html
+https://rusi.org/
+https://medium.com/@Peter_UXer/osint-how-to-find-information-on-anyone-5029a3c7fd56
+https://hackernoon.com/detecting-fake-viral-stories-before-they-become-viral-using-fb-api-f67a18cd4f0a
+https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/
+https://www.bellingcat.com/resources/how-tos/2019/06/21/the-most-comprehensive-tweetdeck-research-guide-in-existence-probably/
+https://nixintel.info/osint-tools/getting-started-with-spiderfoot/
+https://www.peerlyst.com/posts/osint-on-the-ocean-maritime-intelligence-gathering-techniques-rae-baker
+https://www.osintcombine.com/post/corporate-profiling-advanced-linkedin-searching-more
+https://medium.com/@zacherytysonbrown/write-like-an-intelligence-analyst-34d06738d2ef
+https://web.archive.org/web/20210212090412/https://somerandomstuff1.wordpress.com/2019/02/08/geoguessr-the-top-tips-tricks-and-techniques/
+https://www.rand.org/content/dam/rand/pubs/research_reports/RR1400/RR1408/RAND_RR1408.pdf
+https://exposingtheinvisible.org/
+https://www.accessnow.org/about-us/
+https://firstdraftnews.org/
+https://web.archive.org/web/20130527231420/http://www.wyldryde.org/commands/fantasy.php
+https://register.automatingosint.com/
+https://www.sans.org/course/open-source-intelligence-gathering
+https://www.anti-crime-academy.com/osint-training
+https://www.google.com/earth/outreach/learn/
+https://netbootcamp.org/trainingprogram/
+https://plessas.net/online-training
+https://learn-new-tools.org/
+https://www.ecoi.net/en/coi-resources/training/
+https://www.sentinel-hub.com/explore/education
+https://www.maltego.com/categories/tutorial/
+https://developers.google.com/edu/python/
+https://www.khanacademy.org/math/statistics-probability
+https://element.io/
+https://matrix.org/
+https://app.wire.com/?hl=en
+https://briarproject.org/
+https://mail.tutanota.com/
+https://countermail.com/
+https://www.geekshed.net/commands/chanserv/
+https://send.tresorit.com/
+https://gofile.io/welcome
+https://internxt.com/
+https://www.filehosting.org/
+https://www.filedropper.com/
+https://depositfiles.com/
+https://zippyshare.com/
+https://www.4shared.com/
+https://www.mediafire.com/
+https://anonymousfiles.io/#
+https://www.sendspace.com/
+https://wetransfer.com/
+https://www.file.io/
+https://0bin.net/
+https://ufile.io/
+https://figshare.com/account/home
+https://securedrop.org/
+https://mega.nz/
+https://app.box.com/
+https://cryptpad.fr/
+https://www.dailydot.com/debug/who-is-qanon-jim-watkins-rumors/
+https://www.logically.ai/articles/qanon-key-figure-man-from-new-jersey
+https://www.newsweek.com/who-jason-gelinas-qanon-website-goes-offline-after-new-jersey-operator-identified-1531453
+https://qanon41020.wordpress.com/
+https://www.isdglobal.org/?s=qanon
+https://nypost.com/article/what-is-qanon-conspiracy-theory/
+https://www.adl.org/qanon
+https://www.snopes.com/news/2020/08/21/qanon-2020-election/
+https://abcnews.go.com/Politics/men-qanon/story?id=73046374
+https://www.pewresearch.org/fact-tank/2020/11/16/5-facts-about-the-qanon-conspiracy-theories/
+https://www.theguardian.com/us-news/2021/mar/20/revealed-man-behind-fast-growing-cult-becoming-the-new-qanon-sabmyk-network
+https://theqpatriothub.weebly.com/
+https://fivethirtyeight.com/features/qanon-has-become-the-cult-that-cries-wolf/
+https://www.theguardian.com/us-news/2020/aug/25/qanon-conspiracy-theory-explained-trump-what-is
+https://thepatriotvoice.us/
+https://www.forbes.com/sites/siladityaray/2020/10/19/qanon-conspiracy-forum-8kun-back-online-with-help-from-russian-internet-firm/?sh=69c231893e90
+https://www.salon.com/2021/03/25/qanon-and-the-trump-cult-expert-steven-hassan-on-whether-they-can-be-saved/
+https://www.latimes.com/entertainment-arts/tv/story/2021-03-28/qanon-docuseries-hbo-who-is-q
+https://www.forbes.com/sites/suzannerowankelleher/2021/03/25/qanon-conference-omni-dallas-hotel-memorial-day-weekend-michael-flynn-sidney-powell/?sh=1bbf6fef3778
+https://www.vice.com/en/topic/qanon
+https://www.brookings.edu/techstream/how-to-respond-to-the-qanon-threat/
+https://slate.com/technology/2020/09/qanon-identity-revealed-explained.html
+https://www.salon.com/2020/08/16/what-is-qanon-a-not-so-brief-introduction-to-the-conspiracy-theory-thats-eating-america/
+https://www.houstonpublicmedia.org/articles/shows/town-square/2021/03/22/394095/unpacking-qanon-how-do-we-understand-conspiracy-theories-and-their-impact/
+https://folklife.si.edu/magazine/folkloric-roots-of-qanon-conspiracy
+https://www.reddit.com/r/QAnonCasualties/
+https://www.upi.com/Top_News/Voices/2021/03/26/QAnon-followers-mental-illness/6201616759311/
+https://newrepublic.com/article/159529/qanon-blood-libel-satanic-panic
+https://www.poynter.org/reporting-editing/2021/embedded-within-a-mass-delusion-the-challenge-of-reporting-on-qanon/
+https://cyber.harvard.edu/story/2021-02/tracking-qanon-how-trump-turned-conspiracy-theory-research-upside-down
+https://www.centraltrack.com/oh-shit-a-qanon-con-is-coming-to-dallas/
+https://www.usnews.com/news/top-news/articles/2020-08-24/small-but-growing-russian-support-for-qanon-conspiracies-seen-online
+https://www.rollingstone.com/culture/culture-news/qanon-telegram-channels-increase-1117869/
+https://www.mediamatters.org/qanon-conspiracy-theory
+http://www.orphanalytics.com/en/news/pressrelease20201215
+https://www.bellingcat.com/news/americas/2021/01/07/the-making-of-qanon-a-crowdsourced-conspiracy/
+https://www.bellingcat.com/news/americas/2021/01/29/the-qanon-timeline/
+https://www.vice.com/en/article/88azmv/why-qanon-followers-are-suddenly-saying-theres-no-such-thing-as-qanon
+https://www.logically.ai/search-results?term=qanon&type=BLOG_POST&groupId=2_blank
+https://www.timesofisrael.com/swiss-sleuths-use-text-analysis-to-track-down-the-identity-of-q-behind-qanon/
+https://www.thedailybeast.com/how-the-far-right-made-me-the-false-face-of-the-dc-insurrection
+https://www.freeburmarangers.org/
+https://newblood.anonops.com/h2sao.html
+https://www.policedap.org/
+https://www.washingtonpost.com/graphics/investigations/police-shootings-database/
+https://mappingpoliceviolence.org/
+https://copcrisis.com/
+https://blmprotests.forensic-architecture.org/
+https://www.bgsu.edu/health-and-human-services/programs/department-of-human-services/criminal-justice/police-integrity-lost.html
+https://www.protectedtext.com/belarus2
+https://dfrlab.github.io/Plandemic/ : 1. Fuentes y Recursos Generales de OSINT
+
+    OSINT Framework
+    OSINT Techniques
+    OSINT Combine
+    OSINT.sh
+    ReconTool
+    Sources and Methods Blog
+    Google OSINT Resources
+    Ultimate OSINT Collection
+    Awesome OSINT GitHub
+    OSINT Techniques Tools
+    OSINT Resources Google Doc
+
+2. Herramientas y Plataformas OSINT
+
+    Maltego
+    SpiderFoot
+    TheHarvester
+    Cortex / CortexXDR
+    Social-Searcher
+    OSINT Dojo
+    Deep Fake Detection
+    OSINT Tools Curated
+
+3. Análisis de Dominio y WHOIS
+
+    DomainBigData
+    Reverse WHOIS
+    Who.is
+    DNSdumpster
+    Security Trails
+    ViewDNS
+    PassiveTotal
+    Censys
+    Shodan
+    ZoomEye
+    Onyphe
+
+4. Análisis de Infraestructura y Redes
+
+    Cicada
+    IPInfo
+    NetBlocks
+    RIPE NCC
+    DNSlytics
+    Robtex
+    PeeringDB
+
+5. Búsqueda en Motores y Deep Web
+
+    Google Advanced Search Operators
+    Yandex
+    Bing
+    DuckDuckGo
+    StartPage
+    Yippy
+    CSE Google Custom Search
+
+6. Búsqueda de Imágenes y Análisis Forense
+
+    Google Images
+    Yandex Images
+    TinEye
+    Pimeyes
+    FotoForensics
+    ExifCleaner
+    Generated Photos
+    Deepfake Tools
+
+7. Análisis de Redes Sociales y Perfiles
+
+    Hunter.io
+    Pipl
+    Radaris
+    Spokeo
+    That’s Them
+    Find My FBID
+    Insecam
+
+8. Investigaciones en la Web Oscura y Tor
+
+    Dark Web Search
+    Onion.Live
+    Tor Exonerator
+    Onionscan
+    Darktracer
+    Silk Road / Deep Web Forums
+    IACA Dark Web Tools
+
+9. Análisis de Datos y Visualización
+
+    Gephi
+    Kumu
+    DataVIZ Catalogue
+    D3.js
+    Corma
+
+10. Recursos de Seguridad, Vulnerabilidades y Análisis de Malware
+
+    VirusTotal
+    Hybrid Analysis
+    Any.run
+    Exploit-DB
+    Malwareconfig
+    Koodous
+    Cytoscape
+
+11. Fuentes de Información y Datos Abiertos
+
+    World Bank Data
+    CIA World Factbook
+    UN Data
+    PolitiFact
+    OpenSecrets
+    Open Research Repository
+
+12. Recursos de Análisis de Amenazas y Ciberseguridad
+
+    RiskIQ
+    VirusTotal
+    AlienVault OTX
+    GreyNoise
+    Cymon
+
+13. Herramientas y Recursos de Comunicación y Colaboración
+
+    Obsidian
+    Joplin
+    Etherpad
+    PrivateBin
+    ProtonMail
+    Trello / Notion / Coda
+
+14. Recursos Legales y de Investigación
+
+    First Draft News
+    Media Matters
+    Bellingcat
+    Investigative Reports
+
+15. Otros Recursos y Herramientas de Interés
+
+    Google Earth
+    OpenStreetMap
+    FlightRadar
+    MarineTraffic
+    WINDY

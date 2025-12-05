@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brújula Digital | OSINT & Pentesting Portfolio</title>
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/img/favicon.svg">
+
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self'; 
+    script-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com; 
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; 
+    font-src 'self' https://fonts.gstatic.com; 
+    img-src 'self' https: data:; 
+    connect-src 'self'; 
+    object-src 'none'; 
+    base-uri 'self'; 
+    form-action 'self'; 
+    frame-ancestors 'none';
+    ">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="no-referrer">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <script src="assets/vendor/lucide.min.js"></script>
+    <!-- Fuse.js (Local) -->
+    <script src="assets/vendor/fuse.min.js"></script>
+    <!-- DOMPurify (Security) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"
+        integrity="sha384-cwS6YdhLI7XS60eoDiC+egV0qHp8zI+Cms46R0nbn8JrmoAzV9uFL60etMZhAnSu"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <button class="menu-toggle" id="menuToggle">
+        <i data-lucide="menu"></i>
+    </button>
+
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="profile-section">
+                <button id="themeToggle" class="theme-toggle-btn" title="Cambiar Tema">
+                    <i data-lucide="sun"></i>
+                </button>
+                <!-- Placeholder image, ideally user replaces this -->
+                <img src="https://ui-avatars.com/api/?name=John+Camargo&background=38bdf8&color=fff" alt="John Camargo"
+                    class="profile-img">
+                <h2 class="profile-name">John Camargo</h2>
+                <p class="profile-role">Pentester Junior & OSINT</p>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <button class="nav-btn active" data-tab="all_tools">
+                        <span><i data-lucide="library"></i> Total Herramientas</span>
+                        <span class="nav-badge" id="count-all_tools">0</span>
+                    </button>
+                </li>
+
+                <li class="nav-item-header">Categorías</li>
+
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="start_me">
+                        <span><i data-lucide="star"></i> Start.me</span>
+                        <span class="nav-badge" id="count-start_me">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="github_tools">
+                        <span><i data-lucide="github"></i> GitHub Tools</span>
+                        <span class="nav-badge" id="count-github_tools">0</span>
+                    </button>
+                </li>
+
+                <li class="nav-divider"></li>
+
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="osint_general">
+                        <span><i data-lucide="book"></i> General OSINT</span>
+                        <span class="nav-badge" id="count-osint_general">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="osint_platforms">
+                        <span><i data-lucide="layers"></i> Plataformas</span>
+                        <span class="nav-badge" id="count-osint_platforms">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="domains">
+                        <span><i data-lucide="globe"></i> Dominios</span>
+                        <span class="nav-badge" id="count-domains">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="network">
+                        <span><i data-lucide="network"></i> Infraestructura</span>
+                        <span class="nav-badge" id="count-network">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="search_deep_web">
+                        <span><i data-lucide="search"></i> Search Engines</span>
+                        <span class="nav-badge" id="count-search_deep_web">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="images_forensics">
+                        <span><i data-lucide="camera"></i> Imágenes</span>
+                        <span class="nav-badge" id="count-images_forensics">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="social_profiles">
+                        <span><i data-lucide="users"></i> Perfiles Social</span>
+                        <span class="nav-badge" id="count-social_profiles">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="dark_web">
+                        <span><i data-lucide="lock"></i> Dark Web</span>
+                        <span class="nav-badge" id="count-dark_web">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="data_viz">
+                        <span><i data-lucide="bar-chart-2"></i> Visualización</span>
+                        <span class="nav-badge" id="count-data_viz">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="security_malware">
+                        <span><i data-lucide="shield-alert"></i> Malware & Vuln</span>
+                        <span class="nav-badge" id="count-security_malware">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="open_data">
+                        <span><i data-lucide="database"></i> Datos Abiertos</span>
+                        <span class="nav-badge" id="count-open_data">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="threat_intel">
+                        <span><i data-lucide="radar"></i> Threat Intel</span>
+                        <span class="nav-badge" id="count-threat_intel">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="collaboration">
+                        <span><i data-lucide="message-square"></i> Colaboración</span>
+                        <span class="nav-badge" id="count-collaboration">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="legal">
+                        <span><i data-lucide="scale"></i> Legal</span>
+                        <span class="nav-badge" id="count-legal">0</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="other">
+                        <span><i data-lucide="box"></i> Otros</span>
+                        <span class="nav-badge" id="count-other">0</span>
+                    </button>
+                </li>
+
+                <li class="nav-divider"></li>
+
+                <li class="nav-item">
+                    <button class="nav-btn" data-tab="guide">
+                        <span><i data-lucide="help-circle"></i> Guía de Uso</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="social-links">
+                <a href="https://github.com/jscamargo-cyber" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" title="GitHub">
+                    <i data-lucide="github"></i>
+                </a>
+
+                <a href="https://linkedin.com/in/jscamargo-cyber" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" title="LinkedIn">
+                    <i data-lucide="linkedin"></i>
+                </a>
+
+                <a href="https://twitter.com/jscamargo_cyber" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" title="Twitter">
+                    <i data-lucide="twitter"></i>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Utility Bar (Links Removed) -->
+            <nav class="top-navbar">
+                <div class="top-nav-links">
+                    <button id="openPortfolioBtn" class="btn btn-primary btn-sm">
+                        <i data-lucide="briefcase"></i> Ver Portafolio & Skills
+                    </button>
+                </div>
+                <div class="api-status" title="API Status: Operational">
+                    <span class="status-dot"></span> API Status
+                </div>
+            </nav>
+
+            <header class="section-header">
+                <div>
+                    <h1 class="section-title" id="sectionTitle">Recon</h1>
+                    <p class="section-subtitle" id="sectionSubtitle">Herramientas de reconocimiento y recolección de
+                        información.</p>
+                </div>
+
+                <div class="search-container">
+                    <i data-lucide="search" class="search-icon-input"></i>
+                    <input type="text" id="searchInput" class="search-input"
+                        placeholder="Buscar herramienta, tag o descripción...">
+                </div>
+            </header>
+
+            <div class="tools-grid" id="toolsGrid">
+                <!-- Tools will be injected here by JS -->
+            </div>
+            <div class="footer-column">
+                <h4>Recursos</h4>
+                <a href="#" class="footer-link"><i data-lucide="file-text"></i> Blog & Artículos</a>
+                <a href="#" class="footer-link"><i data-lucide="map"></i> Roadmap</a>
+                <a href="https://github.com/jscamargo-cyber/Framework-OSINT/issues" target="_blank"
+                    rel="noopener noreferrer" class="footer-link"><i data-lucide="bug"></i> Reportar Bug</a>
+            </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Tool Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal"><i data-lucide="x"></i></button>
+            <div class="modal-header">
+                <h2 id="modalTitle" class="card-title" style="margin-bottom: 0.5rem;">Tool Name</h2>
+                <div id="modalTags" class="card-tags" style="margin-bottom: 1rem;"></div>
+            </div>
+            <div class="modal-body">
+                <div id="modalScreenshots" class="modal-screenshots"></div>
+                <p id="modalDesc" style="color: var(--text-muted); margin-bottom: 1.5rem;">Description...</p>
+                <div class="modal-actions">
+                    <a href="#" id="modalLink" class="btn btn-primary" target="_blank">
+                        <i data-lucide="external-link"></i> Visitar Sitio
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i data-lucide="code"></i> Ver Código
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal -->
+    <div class="modal-overlay" id="portfolioOverlay">
+        <div class="modal-content portfolio-content">
+            <button class="close-modal" id="closePortfolio"><i data-lucide="x"></i></button>
+
+            <div class="portfolio-header">
+                <div class="portfolio-avatar">
+                    <img src="https://ui-avatars.com/api/?name=John+Camargo&background=38bdf8&color=fff&size=128"
+                        alt="Profile">
+                </div>
+                <div class="portfolio-title-block">
+                    <h2>John Camargo</h2>
+                    <p class="role-badge">Cybersecurity Analyst & Developer</p>
+                    <p class="bio-text">Apasionado por la ciberseguridad ofensiva, OSINT y el desarrollo de herramientas
+                        de seguridad. Transformando datos en inteligencia accionable.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-section">
+                <h3><i data-lucide="zap"></i> Habilidades Técnicas</h3>
+                <div class="skills-grid">
+                    <span class="skill-tag"><i data-lucide="terminal"></i> Python & Bash</span>
+                    <span class="skill-tag"><i data-lucide="search"></i> OSINT Avanzado</span>
+                    <span class="skill-tag"><i data-lucide="shield"></i> Web Pentesting</span>
+                    <span class="skill-tag"><i data-lucide="layout"></i> Frontend Dev</span>
+                    <span class="skill-tag"><i data-lucide="database"></i> Data Analysis</span>
+                    <span class="skill-tag"><i data-lucide="server"></i> Linux Admin</span>
+                </div>
+            </div>
+
+            <div class="portfolio-section">
+                <h3><i data-lucide="folder-git-2"></i> Proyectos Destacados</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h4>Brujula OSINT</h4>
+                        <p>Framework de inteligencia con +1000 herramientas curadas.</p>
+                        <a href="#" class="project-link">Ver Proyecto <i data-lucide="arrow-right"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <h4>AutoRecon Script</h4>
+                        <p>Automatización de escaneos de reconocimiento en Bash.</p>
+                        <a href="#" class="project-link">Ver Proyecto <i data-lucide="arrow-right"></i></a>
+                    </div>
+                    <!-- Add more projects here -->
+                </div>
+            </div>
+
+            <div class="modal-actions" style="margin-top: 2rem; justify-content: center;">
+                <a href="https://linkedin.com/in/jscamargo-cyber" target="_blank" class="btn btn-primary">
+                    <i data-lucide="linkedin"></i> Contactar en LinkedIn
+                </a>
+                <a href="mailto:contact@example.com" class="btn btn-secondary">
+                    <i data-lucide="mail"></i> Enviar Email
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <!-- Command Palette -->
+    <div class="command-palette-overlay" id="commandPalette">
+        <div class="command-palette-modal">
+            <div class="palette-header">
+                <i data-lucide="search" class="palette-icon"></i>
+                <input type="text" id="paletteInput" class="palette-input"
+                    placeholder="Escribe un comando o busca una herramienta...">
+                <span class="palette-hint">Esc para cerrar</span>
+            </div>
+            <div class="palette-results" id="paletteResults">
+                <!-- Results injected by JS -->
+            </div>
+            <div class="palette-footer">
+                <span><kbd>↵</kbd> para seleccionar</span>
+                <span><kbd>↑</kbd> <kbd>↓</kbd> para navegar</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+
+    <div id="commandPaletteOverlay" class="command-palette-overlay">
+        <div class="command-palette">
+            <div class="cp-header">
+                <i data-lucide="terminal" class="cp-icon"></i>
+                <input type="text" id="cpInput" placeholder="Escribe un comando o busca una herramienta..."
+                    autocomplete="off">
+                <span class="cp-badge">ESC</span>
+            </div>
+            <div id="cpResults" class="cp-results">
+            </div>
+            <div class="cp-footer">
+                <span><kbd>↑</kbd> <kbd>↓</kbd> navegar</span>
+                <span><kbd>↵</kbd> seleccionar</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

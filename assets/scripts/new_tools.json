@@ -1,0 +1,725 @@
+[
+    {
+        "id": 1,
+        "name": "Shodan",
+        "description": "Motor de búsqueda para dispositivos IoT y servidores expuestos. Ideal para mapear infra red pasivamente en auditorías.",
+        "url": "https://shodan.io",
+        "tags": [
+            "IoT",
+            "Search Engine",
+            "Passive",
+            "Recon"
+        ],
+        "category": "recon"
+    },
+    {
+        "id": 2,
+        "name": "Censys",
+        "description": "Escanea internet para certificados y hosts; enfocado en vulns y exposición de superficie de ataque.",
+        "url": "https://censys.io",
+        "tags": [
+            "Certificates",
+            "Hosts",
+            "Recon",
+            "Passive"
+        ],
+        "category": "recon"
+    },
+    {
+        "id": 3,
+        "name": "theHarvester",
+        "description": "Recolecta emails, subdominios y hosts de fuentes públicas como Google y LinkedIn. Perfecto para footprinting inicial.",
+        "url": "https://github.com/laramies/theHarvester",
+        "tags": [
+            "Emails",
+            "Subdomains",
+            "CLI",
+            "Python"
+        ],
+        "category": "recon"
+    },
+    {
+        "id": 4,
+        "name": "Recon-ng",
+        "description": "Framework modular para recon web; integra módulos para DNS, social y más con reportes automáticos.",
+        "url": "https://github.com/lanmaster53/recon-ng",
+        "tags": [
+            "Framework",
+            "Modular",
+            "Python",
+            "Recon"
+        ],
+        "category": "recon"
+    },
+    {
+        "id": 5,
+        "name": "Maltego",
+        "description": "Visualiza relaciones entre entidades (dominios, emails) con transforms para link analysis profunda.",
+        "url": "https://www.maltego.com",
+        "tags": [
+            "Visualization",
+            "Link Analysis",
+            "Java"
+        ],
+        "category": "recon"
+    },
+    {
+        "id": 6,
+        "name": "SpiderFoot",
+        "description": "Automatiza OSINT de +200 fuentes; genera perfiles completos de targets con correlación automática.",
+        "url": "https://www.spiderfoot.net",
+        "tags": [
+            "Automation",
+            "Multi-Source",
+            "Recon"
+        ],
+        "category": "recon"
+    },
+    {
+        "id": 7,
+        "name": "OSINT Framework",
+        "description": "Árbol interactivo de herramientas OSINT categorizadas por tipo de recon y target.",
+        "url": "https://osintframework.com",
+        "tags": [
+            "Framework",
+            "Directory",
+            "Web"
+        ],
+        "category": "recon"
+    },
+    {
+        "id": 8,
+        "name": "Datasploit",
+        "description": "Automatiza recon de dominios, IPs y emails con reportes integrados y exportación a JSON.",
+        "url": "https://github.com/DataSploit/datasploit",
+        "tags": [
+            "Automation",
+            "Reports",
+            "Python"
+        ],
+        "category": "recon"
+    },
+    {
+        "id": 9,
+        "name": "Metagoofil",
+        "description": "Extrae metadata de documentos públicos (PDFs, Word) para recon de orgs y empleados.",
+        "url": "https://github.com/laramies/metagoofil",
+        "tags": [
+            "Metadata",
+            "Documents",
+            "CLI"
+        ],
+        "category": "recon"
+    },
+    {
+        "id": 10,
+        "name": "FOCA",
+        "description": "Fingerprinting de orgs vía metadata y relaciones ocultas en documentos y enlaces.",
+        "url": "https://www.elevenpaths.com/labstools/foca",
+        "tags": [
+            "Fingerprinting",
+            "Metadata",
+            "Windows"
+        ],
+        "category": "recon"
+    },
+    {
+        "id": 11,
+        "name": "Sherlock",
+        "description": "Busca usernames en +400 sitios sociales; CLI rápida para footprints de identidades digitales.",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "tags": [
+            "Username",
+            "Social",
+            "CLI"
+        ],
+        "category": "usernames"
+    },
+    {
+        "id": 12,
+        "name": "WhatsMyName",
+        "description": "Web para enumerar usernames en redes; incluye API gratuita para integración en scripts.",
+        "url": "https://whatsmyname.app",
+        "tags": [
+            "Username",
+            "Web",
+            "API"
+        ],
+        "category": "usernames"
+    },
+    {
+        "id": 13,
+        "name": "Social Analyzer",
+        "description": "Identifica cuentas sociales por email o username; enfocado en privacy checks y correlación.",
+        "url": "https://github.com/qeeqbox/social-analyzer",
+        "tags": [
+            "Social",
+            "Privacy",
+            "Python"
+        ],
+        "category": "usernames"
+    },
+    {
+        "id": 14,
+        "name": "Maigret",
+        "description": "Extrae info de perfiles sociales vía username; soporta Instagram, Twitter y +500 sitios.",
+        "url": "https://github.com/soxoj/maigret",
+        "tags": [
+            "Social",
+            "Username",
+            "CLI"
+        ],
+        "category": "usernames"
+    },
+    {
+        "id": 15,
+        "name": "Osintgram",
+        "description": "Recon en Instagram vía username; extrae followers, posts y metadata para análisis.",
+        "url": "https://github.com/Datalux/Osintgram",
+        "tags": [
+            "Instagram",
+            "Social",
+            "Python"
+        ],
+        "category": "usernames"
+    },
+    {
+        "id": 16,
+        "name": "GHunt",
+        "description": "OSINT profunda en cuentas Google; extrae emails, locations y devices desde un perfil simple.",
+        "url": "https://github.com/mxrch/GHunt",
+        "tags": [
+            "Google",
+            "Email",
+            "Python"
+        ],
+        "category": "usernames"
+    },
+    {
+        "id": 17,
+        "name": "Twint",
+        "description": "Scraper para Twitter sin API; recolecta tweets, followers y trends para recon social.",
+        "url": "https://github.com/twintproject/twint",
+        "tags": [
+            "Twitter",
+            "Scraper",
+            "Python"
+        ],
+        "category": "usernames"
+    },
+    {
+        "id": 18,
+        "name": "Instaloader",
+        "description": "Descarga posts y stories de Instagram para análisis offline de contenido y metadata.",
+        "url": "https://instaloader.github.io",
+        "tags": [
+            "Instagram",
+            "Downloader",
+            "Python"
+        ],
+        "category": "usernames"
+    },
+    {
+        "id": 19,
+        "name": "Hunter.io",
+        "description": "Encuentra emails profesionales por dominio; incluye verificación y exportación masiva.",
+        "url": "https://hunter.io",
+        "tags": [
+            "Emails",
+            "Professional",
+            "Web"
+        ],
+        "category": "email_phone"
+    },
+    {
+        "id": 20,
+        "name": "PhoneInfoga",
+        "description": "OSINT para números de teléfono; extrae carrier, location y leaks de fuentes públicas.",
+        "url": "https://github.com/sundowndev/PhoneInfoga",
+        "tags": [
+            "Phone",
+            "Recon",
+            "Python"
+        ],
+        "category": "email_phone"
+    },
+    {
+        "id": 21,
+        "name": "EmailRep",
+        "description": "Verifica reputación de emails y detecta si está en breaches o listas de spam.",
+        "url": "https://emailrep.io",
+        "tags": [
+            "Emails",
+            "Reputation",
+            "API"
+        ],
+        "category": "email_phone"
+    },
+    {
+        "id": 22,
+        "name": "Holehe",
+        "description": "Chequea si un email está registrado en sitios populares sin enviar emails reales.",
+        "url": "https://github.com/megadose/holehe",
+        "tags": [
+            "Emails",
+            "Check",
+            "Python"
+        ],
+        "category": "email_phone"
+    },
+    {
+        "id": 23,
+        "name": "Verify-Email",
+        "description": "Valida emails en tiempo real vía SMTP; útil para recon activo sin spam.",
+        "url": "https://verifymail.io",
+        "tags": [
+            "Emails",
+            "Validation",
+            "API"
+        ],
+        "category": "email_phone"
+    },
+    {
+        "id": 24,
+        "name": "NumLookup",
+        "description": "Búsqueda inversa de números de teléfono; incluye carrier, location y datos públicos.",
+        "url": "https://www.numlookup.com",
+        "tags": [
+            "Phone",
+            "Reverse",
+            "Web"
+        ],
+        "category": "email_phone"
+    },
+    {
+        "id": 25,
+        "name": "Deadtrap",
+        "description": "Detector de números 'muertos' o desechables usados en recon temporal.",
+        "url": "https://github.com/0x09AL/DeadTrap",
+        "tags": [
+            "Phone",
+            "Disposable",
+            "Python"
+        ],
+        "category": "email_phone"
+    },
+    {
+        "id": 26,
+        "name": "Amass",
+        "description": "Enumerador de subdominios activo/pasivo; integra múltiples técnicas DNS y certificados.",
+        "url": "https://github.com/owasp-amass/amass",
+        "tags": [
+            "Subdomains",
+            "DNS",
+            "Go"
+        ],
+        "category": "domains"
+    },
+    {
+        "id": 27,
+        "name": "Sublist3r",
+        "description": "Brute-force y búsqueda de subdominios vía engines como Google/Bing y wordlists.",
+        "url": "https://github.com/aboul3la/Sublist3r",
+        "tags": [
+            "Subdomains",
+            "Brute",
+            "Python"
+        ],
+        "category": "domains"
+    },
+    {
+        "id": 28,
+        "name": "SecurityTrails",
+        "description": "Histórico de DNS y WHOIS para dominios; perfecto para recon histórico y cambios.",
+        "url": "https://securitytrails.com",
+        "tags": [
+            "DNS",
+            "Historical",
+            "API"
+        ],
+        "category": "domains"
+    },
+    {
+        "id": 29,
+        "name": "DNSDumpster",
+        "description": "Mapa visual de DNS para dominios; incluye hosts, MX y relaciones de infra.",
+        "url": "https://dnsdumpster.com",
+        "tags": [
+            "DNS",
+            "Visualization",
+            "Web"
+        ],
+        "category": "domains"
+    },
+    {
+        "id": 30,
+        "name": "ViewDNS",
+        "description": "Herramientas gratuitas para reverse DNS, WHOIS y enumeración de subdominios.",
+        "url": "https://viewdns.info",
+        "tags": [
+            "DNS",
+            "Reverse",
+            "Web"
+        ],
+        "category": "domains"
+    },
+    {
+        "id": 31,
+        "name": "crt.sh",
+        "description": "Búsqueda de certificados SSL para encontrar subdominios olvidados y históricos.",
+        "url": "https://crt.sh",
+        "tags": [
+            "Certificates",
+            "Subdomains",
+            "Web"
+        ],
+        "category": "domains"
+    },
+    {
+        "id": 32,
+        "name": "Riddler",
+        "description": "Escanea subdominios vía permutaciones y wordlists personalizadas para recon exhaustivo.",
+        "url": "https://github.com/blacklanternsecurity/bbot",
+        "tags": [
+            "Subdomains",
+            "Permutation",
+            "Python"
+        ],
+        "category": "domains"
+    },
+    {
+        "id": 33,
+        "name": "Have I Been Pwned",
+        "description": "Chequea breaches por email; incluye passwords y notificaciones para verificación de identidad.",
+        "url": "https://haveibeenpwned.com",
+        "tags": [
+            "Breaches",
+            "Emails",
+            "Web"
+        ],
+        "category": "people_breaches"
+    },
+    {
+        "id": 34,
+        "name": "DeHashed",
+        "description": "Búsqueda en breaches de emails, hashes y datos filtrados para recon de credenciales.",
+        "url": "https://dehashed.com",
+        "tags": [
+            "Breaches",
+            "Hashes",
+            "API"
+        ],
+        "category": "people_breaches"
+    },
+    {
+        "id": 35,
+        "name": "LeakCheck",
+        "description": "Verifica emails en leaks públicos y privados para detectar exposición de datos personales.",
+        "url": "https://leakcheck.io",
+        "tags": [
+            "Breaches",
+            "Verification",
+            "Web"
+        ],
+        "category": "people_breaches"
+    },
+    {
+        "id": 36,
+        "name": "Epieos",
+        "description": "Recon de personas vía email; extrae redes sociales y datos públicos correlacionados.",
+        "url": "https://epieos.com",
+        "tags": [
+            "People",
+            "Email",
+            "Web"
+        ],
+        "category": "people_breaches"
+    },
+    {
+        "id": 37,
+        "name": "IntelX",
+        "description": "Búsqueda en dark web y leaks para datos personales y breaches no indexados.",
+        "url": "https://intelx.io",
+        "tags": [
+            "Dark Web",
+            "Leaks",
+            "API"
+        ],
+        "category": "people_breaches"
+    },
+    {
+        "id": 38,
+        "name": "TinEye",
+        "description": "Búsqueda inversa de imágenes para encontrar orígenes, usos y manipulaciones.",
+        "url": "https://tineye.com",
+        "tags": [
+            "Reverse Image",
+            "Images",
+            "Web"
+        ],
+        "category": "images_geo"
+    },
+    {
+        "id": 39,
+        "name": "PimEyes",
+        "description": "Recon facial en web abierta; encuentra fotos similares y fuentes originales.",
+        "url": "https://pimeyes.com",
+        "tags": [
+            "Facial",
+            "Images",
+            "Web"
+        ],
+        "category": "images_geo"
+    },
+    {
+        "id": 40,
+        "name": "FotoForensics",
+        "description": "Análisis de errores ELA para detectar manipulaciones y ediciones en imágenes.",
+        "url": "https://fotoforensics.com",
+        "tags": [
+            "Forensics",
+            "Images",
+            "Web"
+        ],
+        "category": "images_geo"
+    },
+    {
+        "id": 41,
+        "name": "Wigle",
+        "description": "Mapa global de hotspots WiFi y dispositivos Bluetooth para geolocalización.",
+        "url": "https://wigle.net",
+        "tags": [
+            "Geo",
+            "WiFi",
+            "Database"
+        ],
+        "category": "images_geo"
+    },
+    {
+        "id": 42,
+        "name": "CellMapper",
+        "description": "Cobertura celular y torres; útil para geolocalización de señales móviles.",
+        "url": "https://cellmapper.net",
+        "tags": [
+            "Geo",
+            "Mobile",
+            "Web"
+        ],
+        "category": "images_geo"
+    },
+    {
+        "id": 43,
+        "name": "VirusTotal",
+        "description": "Análisis multi-motor de archivos, URLs y hashes para threat intel y malware.",
+        "url": "https://virustotal.com",
+        "tags": [
+            "Malware",
+            "Analysis",
+            "API"
+        ],
+        "category": "threat_intel"
+    },
+    {
+        "id": 44,
+        "name": "Hybrid-Analysis",
+        "description": "Sandbox para ejecutar y analizar malware en entornos controlados con reportes detallados.",
+        "url": "https://www.hybrid-analysis.com",
+        "tags": [
+            "Sandbox",
+            "Malware",
+            "Web"
+        ],
+        "category": "threat_intel"
+    },
+    {
+        "id": 45,
+        "name": "OTX (AlienVault)",
+        "description": "Plataforma colaborativa de IOCs y threat intel para compartir y consultar amenazas.",
+        "url": "https://otx.alienvault.com",
+        "tags": [
+            "Threat Intel",
+            "IOCs",
+            "Web"
+        ],
+        "category": "threat_intel"
+    },
+    {
+        "id": 46,
+        "name": "Phishtank",
+        "description": "Base de datos de phishing URLs verificadas para bloquear y analizar campañas.",
+        "url": "https://phishtank.com",
+        "tags": [
+            "Phishing",
+            "URLs",
+            "Database"
+        ],
+        "category": "threat_intel"
+    },
+    {
+        "id": 47,
+        "name": "MalwareBazaar",
+        "description": "Descarga y análisis de muestras de malware recientes para investigación.",
+        "url": "https://bazaar.abuse.ch",
+        "tags": [
+            "Malware",
+            "Samples",
+            "Web"
+        ],
+        "category": "threat_intel"
+    },
+    {
+        "id": 48,
+        "name": "Nmap",
+        "description": "Escáner de puertos y servicios; rey del recon de red para mapear infra.",
+        "url": "https://nmap.org",
+        "tags": [
+            "Network",
+            "Scanner",
+            "CLI"
+        ],
+        "category": "network"
+    },
+    {
+        "id": 49,
+        "name": "Masscan",
+        "description": "Escáner de red ultra-rápido para grandes rangos de IP y puertos abiertos.",
+        "url": "https://github.com/robertdavidgraham/masscan",
+        "tags": [
+            "Network",
+            "Fast Scan",
+            "C"
+        ],
+        "category": "network"
+    },
+    {
+        "id": 50,
+        "name": "Exploit-DB",
+        "description": "Base de datos de exploits y PoCs para vulns conocidas en web y servicios.",
+        "url": "https://exploit-db.com",
+        "tags": [
+            "Exploits",
+            "Vulns",
+            "Web"
+        ],
+        "category": "web_attacks"
+    },
+    {
+        "id": 51,
+        "name": "sqlmap",
+        "description": "Automatiza detección y explotación de SQL injection en apps web vulnerables.",
+        "url": "https://sqlmap.org",
+        "tags": [
+            "Web Vulns",
+            "SQLi",
+            "Python"
+        ],
+        "category": "web_attacks"
+    },
+    {
+        "id": 52,
+        "name": "Nuclei",
+        "description": "Escáner de templates YAML para detectar vulns comunes en web y APIs.",
+        "url": "https://github.com/projectdiscovery/nuclei",
+        "tags": [
+            "Vulns",
+            "Templates",
+            "Go"
+        ],
+        "category": "web_attacks"
+    },
+    {
+        "id": 53,
+        "name": "LinPEAS",
+        "description": "Script para enumeración post-exploit en Linux; detecta privs y configs débiles.",
+        "url": "https://github.com/carlospolop/PEASS-ng",
+        "tags": [
+            "Post-Exp",
+            "Linux",
+            "Script"
+        ],
+        "category": "post_exploitation"
+    },
+    {
+        "id": 54,
+        "name": "WinPEAS",
+        "description": "Enumerador post-exploit para Windows; chequea privs, services y misconfigs.",
+        "url": "https://github.com/carlospolop/PEASS-ng",
+        "tags": [
+            "Post-Exp",
+            "Windows",
+            "Script"
+        ],
+        "category": "post_exploitation"
+    },
+    {
+        "id": 55,
+        "name": "Splunk",
+        "description": "Plataforma SIEM para análisis de logs, alertas y threat hunting en tiempo real.",
+        "url": "https://splunk.com",
+        "tags": [
+            "Blue Team",
+            "SIEM",
+            "Logs"
+        ],
+        "category": "blue_team"
+    },
+    {
+        "id": 56,
+        "name": "YARA",
+        "description": "Reglas para detección de malware y patrones en archivos y memoria.",
+        "url": "https://yara.readthedocs.io",
+        "tags": [
+            "Malware Rules",
+            "Blue Team",
+            "CLI"
+        ],
+        "category": "blue_team"
+    },
+    {
+        "id": 57,
+        "name": "Sigma",
+        "description": "Reglas genéricas para detección de amenazas en logs de cualquier SIEM.",
+        "url": "https://sigmahq.io",
+        "tags": [
+            "Detection Rules",
+            "Blue Team"
+        ],
+        "category": "blue_team"
+    },
+    {
+        "id": 58,
+        "name": "OsintX",
+        "description": "Tu framework propio en Python para automatizar reconnaissance completo.",
+        "url": "https://github.com/jscamargo-cyber/OsintX",
+        "tags": [
+            "Personal",
+            "Python",
+            "Automation"
+        ],
+        "category": "my_tools"
+    },
+    {
+        "id": 59,
+        "name": "Brújula Digital",
+        "description": "Tu app web con +789 herramientas OSINT categorizadas y buscador integrado.",
+        "url": "https://jscamargo-cyber.github.io/Framework-OSINT",
+        "tags": [
+            "Portfolio",
+            "Web",
+            "OSINT"
+        ],
+        "category": "my_tools"
+    },
+    {
+        "id": 60,
+        "name": "Guía de Uso OSINT",
+        "description": "Tutorial paso a paso para integrar herramientas en workflows de recon.",
+        "url": "#guide",
+        "tags": [
+            "Guide",
+            "Tutorial",
+            "Recon"
+        ],
+        "category": "guide"
+    }
+]

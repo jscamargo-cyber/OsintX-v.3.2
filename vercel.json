@@ -1,0 +1,55 @@
+{
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Content-Security-Policy",
+                    "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self'; frame-ancestors 'none';"
+                },
+                {
+                    "key": "X-Content-Type-Options",
+                    "value": "nosniff"
+                },
+                {
+                    "key": "X-Frame-Options",
+                    "value": "DENY"
+                },
+                {
+                    "key": "Permissions-Policy",
+                    "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), vr=()"
+                },
+                {
+                    "key": "Referrer-Policy",
+                    "value": "strict-origin-when-cross-origin"
+                },
+                {
+                    "key": "Strict-Transport-Security",
+                    "value": "max-age=31536000; includeSubDomains; preload"
+                }
+            ]
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/scripts/:match*",
+            "destination": "/404"
+        },
+        {
+            "source": "/urls.txt",
+            "destination": "/404"
+        },
+        {
+            "source": "/security_audit.md",
+            "destination": "/404"
+        },
+        {
+            "source": "/README.MD",
+            "destination": "/404"
+        },
+        {
+            "source": "/(.*)\\.md",
+            "destination": "/404"
+        }
+    ]
+}
