@@ -4,45 +4,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Access Denied</title>
+    <title>SECURE GATEWAY</title>
     <style>
         body {
             background-color: #0d0d0d;
-            color: #ff0000;
+            color: #00ff00;
             font-family: 'Courier New', Courier, monospace;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-            text-align: center;
+            overflow: hidden;
+        }
+
+        .terminal-container {
+            border: 2px solid #00ff00;
+            padding: 40px;
+            width: 400px;
+            text-align: left;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+            position: relative;
+        }
+
+        .terminal-container::before {
+            content: "SYSTEM LOCKED";
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            background-color: #0d0d0d;
+            padding: 0 10px;
+            font-weight: bold;
         }
 
         h1 {
-            font-size: 3rem;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
             text-transform: uppercase;
-            letter-spacing: 5px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        .challenge-text {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        input {
+            background-color: #000;
+            border: 1px solid #00ff00;
+            color: #00ff00;
+            padding: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.2rem;
+            width: 100%;
+            outline: none;
+        }
+
+        input:focus {
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+
+        button {
+            background-color: #00ff00;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #00cc00;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+        }
+
+        .status-msg {
+            margin-top: 20px;
+            height: 20px;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+
+        .error {
+            color: #ff0000;
+            text-shadow: 0 0 5px #ff0000;
+        }
+
+        .success {
+            color: #00ffff;
+            text-shadow: 0 0 5px #00ffff;
+        }
+
+        .blink {
             animation: blink 1s infinite;
         }
 
         @keyframes blink {
-            0% {
+
+            0%,
+            100% {
                 opacity: 1;
             }
 
             50% {
                 opacity: 0;
             }
-
-            100% {
-                opacity: 1;
-            }
         }
     </style>
 </head>
 
 <body>
-    <h1>ACCESS DENIED</h1>
+    <div class="terminal-container">
+        <h1>Identity Check</h1>
+        <div class="challenge-text" id="challengeText">Calculating...</div>
+        <div class="input-group">
+            <input type="number" id="answerInput" placeholder="Enter solution" autocomplete="off">
+            <button onclick="checkAnswer()">AUTH</button>
+        </div>
+        <div class="status-msg" id="statusMsg"></div>
+    </div>
+
+    <script>
+        const challengeText = document.getElementById('challengeText');
+        const answerInput = document.getElementById('answerInput');
+        const statusMsg = document.getElementById('statusMsg');
+
+        let num1, num2, correctAnswer;
+
+        function generateChallenge() {
+            num1 = Math.floor(Math.random() * 20) + 1; // 1 to 20
+            num2 = Math.floor(Math.random() * 20) + 1; // 1 to 20
+            correctAnswer = num1 + num2;
+            challengeText.innerHTML = `> SOLVE: ${num1} + ${num2} = <span class="blink">_</span>`;
+
+            // Clear previous input
+            answerInput.value = '';
+            statusMsg.textContent = '';
+            statusMsg.className = 'status-msg';
+            answerInput.focus();
+        }
+
+        function checkAnswer() {
+            const userAnswer = parseInt(answerInput.value);
+
+            if (isNaN(userAnswer)) {
+                showError("INPUT_INVALID: Enter a number");
+                return;
+            }
+
+            if (userAnswer === correctAnswer) {
+                showSuccess("ACCESS_GRANTED... Redirecting");
+                setTimeout(() => {
+                    window.location.href = 'terminal.html';
+                }, 1000);
+            } else {
+                showError("ACCESS_DENIED: Incorrect solution");
+                // Shake effect or bad feedback
+                setTimeout(generateChallenge, 1500); // New challenge after failure
+            }
+        }
+
+        function showError(msg) {
+            statusMsg.textContent = `> ERROR: ${msg}`;
+            statusMsg.className = 'status-msg error';
+            answerInput.value = '';
+        }
+
+        function showSuccess(msg) {
+            statusMsg.textContent = `> SYSTEM: ${msg}`;
+            statusMsg.className = 'status-msg success';
+        }
+
+        // Allow 'Enter' key to submit
+        answerInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                checkAnswer();
+            }
+        });
+
+        // Initialize on load
+        window.onload = generateChallenge;
+    </script>
 </body>
 
 </html>
